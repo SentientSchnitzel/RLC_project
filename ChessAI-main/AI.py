@@ -1,8 +1,6 @@
 import random
 from math import inf
 
-import numpy as np
-
 from piece import *
 
 
@@ -15,7 +13,6 @@ def random_move(board):
     moves = board.get_moves()
     if moves:
         return random.choice(moves)
-
 
 def evaluate(board, maximizing_color):
     """
