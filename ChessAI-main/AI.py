@@ -54,7 +54,9 @@ def minimax(board, depth, alpha, beta, maximizing_player, maximizing_color):
                 best_move = move
             alpha = max(alpha, current_eval)
             if beta <= alpha:
+                print("breaking", alpha)
                 break
+            print("didnt break")
         return best_move, max_eval
 
     else:
