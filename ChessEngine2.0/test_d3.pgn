@@ -1,0 +1,10 @@
+[Event "Depth ___"]
+[Site "local"]
+[Date "2021-05-03"]
+[Round "1"]
+[White "AlphaBeta and quiescence"]
+[Black "Stockfish12"]
+[Result "0-1"]
+
+1. Nf6+ d5 2. e4+ f3 3. Kxf7 fxg2 4. Nh5 Nc6 5. Qxe7 Qxe1 6. Bh3 Qxf1 7. Be7 Bg5 8. Qxg2 g6 0-1
+
