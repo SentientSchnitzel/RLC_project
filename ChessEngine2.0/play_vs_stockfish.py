@@ -22,7 +22,7 @@ boardvalue = init_evaluate_board(board)
 
 while not board.is_game_over(claim_draw=True):
     if board.turn:
-        move = selectmove(5, board)
+        move = selectmove(3, board)
         board.push(move)
     else:
         engine.position(board)
