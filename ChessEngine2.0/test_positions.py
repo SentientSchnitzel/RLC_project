@@ -2,30 +2,30 @@
 # Good for testing weak engines.
 
 BK_test = [
-        "1k1r4/pp1b1R2/3q2pp/4p3/2B5/4Q3/PPP2B2/2K5 b - - 0 1",
-        "3r1k2/4npp1/1ppr3p/p6P/P2PPPP1/1NR5/5K2/2R5 w - - 0 1",
-        "2q1rr1k/3bbnnp/p2p1pp1/2pPp3/PpP1P1P1/1P2BNNP/2BQ1PRK/7R b - - 0 1",
-        "rnbqkb1r/p3pppp/1p6/2ppP3/3N4/2P5/PPP1QPPP/R1B1KB1R w KQkq - 0 1",
-        "r1b2rk1/2q1b1pp/p2ppn2/1p6/3QP3/1BN1B3/PPP3PP/R4RK1 w - - 0 1",
-        "2r3k1/pppR1pp1/4p3/4P1P1/5P2/1P4K1/P1P5/8 w - - 0 1",
-        "1nk1r1r1/pp2n1pp/4p3/q2pPp1N/b1pP1P2/B1P2R2/2P1B1PP/R2Q2K1 w - - 0 1",
-        "4b3/p3kp2/6p1/3pP2p/2pP1P2/4K1P1/P3N2P/8 w - - 0 1",
-        "2kr1bnr/pbpq4/2n1pp2/3p3p/3P1P1B/2N2N1Q/PPP3PP/2KR1B1R w - - 0 1",
-        "3rr1k1/pp3pp1/1qn2np1/8/3p4/PP1R1P2/2P1NQPP/R1B3K1 b - - 0 1",
-        "2r1nrk1/p2q1ppp/bp1p4/n1pPp3/P1P1P3/2PBB1N1/4QPPP/R4RK1 w - - 0 1",
-        "r3r1k1/ppqb1ppp/8/4p1NQ/8/2P5/PP3PPP/R3R1K1 b - - 0 1",
-        "r2q1rk1/4bppp/p2p4/2pP4/3pP3/3Q4/PP1B1PPP/R3R1K1 w - - 0 1",
-        "rnb2r1k/pp2p2p/2pp2p1/q2P1p2/8/1Pb2NP1/PB2PPBP/R2Q1RK1 w - - 0 1",
-        "2r3k1/1p2q1pp/2b1pr2/p1pp4/6Q1/1P1PP1R1/P1PN2PP/5RK1 w - - 0 1",
-        "r1bqkb1r/4npp1/p1p4p/1p1pP1B1/8/1B6/PPPN1PPP/R2Q1RK1 w kq - 0 1",
-        "r2q1rk1/1ppnbppp/p2p1nb1/3Pp3/2P1P1P1/2N2N1P/PPB1QP2/R1B2RK1 b - - 0 1",
-        "r1bq1rk1/pp2ppbp/2np2p1/2n5/P3PP2/N1P2N2/1PB3PP/R1B1QRK1 b - - 0 1",
-        "3rr3/2pq2pk/p2p1pnp/8/2QBPP2/1P6/P5PP/4RRK1 b - - 0 1",
-        "r4k2/pb2bp1r/1p1qp2p/3pNp2/3P1P2/2N3P1/PPP1Q2P/2KRR3 w - - 0 1",
-        "3rn2k/ppb2rpp/2ppqp2/5N2/2P1P3/1P5Q/PB3PPP/3RR1K1 w - - 0 1",
-        "2r2rk1/1bqnbpp1/1p1ppn1p/pP6/N1P1P3/P2B1N1P/1B2QPP1/R2R2K1 b - - 0 1",
-        "r1bqk2r/pp2bppp/2p5/3pP3/P2Q1P2/2N1B3/1PP3PP/R4RK1 b kq - 0 1",
-        "r2qnrnk/p2b2b1/1p1p2pp/2pPpp2/1PP1P3/PRNBB3/3QNPPP/5RK1 w - - 0 1",
+        '1k1r4/pp1b1R2/3q2pp/4p3/2B5/4Q3/PPP2B2/2K5 b - - bm Qd1+; id "BK.01";',
+        '3r1k2/4npp1/1ppr3p/p6P/P2PPPP1/1NR5/5K2/2R5 w - - bm d5; id "BK.02";',
+        '2q1rr1k/3bbnnp/p2p1pp1/2pPp3/PpP1P1P1/1P2BNNP/2BQ1PRK/7R b - - bm f5; id "BK.03";',
+        'rnbqkb1r/p3pppp/1p6/2ppP3/3N4/2P5/PPP1QPPP/R1B1KB1R w KQkq - bm e6; id "BK.04";',
+        'r1b2rk1/2q1b1pp/p2ppn2/1p6/3QP3/1BN1B3/PPP3PP/R4RK1 w - - bm Nd5 a4; id "BK.05";',
+        '2r3k1/pppR1pp1/4p3/4P1P1/5P2/1P4K1/P1P5/8 w - - bm g6; id "BK.06";',
+        '1nk1r1r1/pp2n1pp/4p3/q2pPp1N/b1pP1P2/B1P2R2/2P1B1PP/R2Q2K1 w - - bm Nf6; id "BK.07";',
+        '4b3/p3kp2/6p1/3pP2p/2pP1P2/4K1P1/P3N2P/8 w - - bm f5; id "BK.08";',
+        '2kr1bnr/pbpq4/2n1pp2/3p3p/3P1P1B/2N2N1Q/PPP3PP/2KR1B1R w - - bm f5; id "BK.09";',
+        '3rr1k1/pp3pp1/1qn2np1/8/3p4/PP1R1P2/2P1NQPP/R1B3K1 b - - bm Ne5; id "BK.10";',
+        '2r1nrk1/p2q1ppp/bp1p4/n1pPp3/P1P1P3/2PBB1N1/4QPPP/R4RK1 w - - bm f4; id "BK.11";',
+        'r3r1k1/ppqb1ppp/8/4p1NQ/8/2P5/PP3PPP/R3R1K1 b - - bm Bf5; id "BK.12";',
+        'r2q1rk1/4bppp/p2p4/2pP4/3pP3/3Q4/PP1B1PPP/R3R1K1 w - - bm b4; id "BK.13";',
+        'rnb2r1k/pp2p2p/2pp2p1/q2P1p2/8/1Pb2NP1/PB2PPBP/R2Q1RK1 w - - bm Qd2 Qe1; id "BK.14";',
+        '2r3k1/1p2q1pp/2b1pr2/p1pp4/6Q1/1P1PP1R1/P1PN2PP/5RK1 w - - bm Qxg7+; id "BK.15";',
+        'r1bqkb1r/4npp1/p1p4p/1p1pP1B1/8/1B6/PPPN1PPP/R2Q1RK1 w kq - bm Ne4; id "BK.16";',
+        'r2q1rk1/1ppnbppp/p2p1nb1/3Pp3/2P1P1P1/2N2N1P/PPB1QP2/R1B2RK1 b - - bm h5; id "BK.17";',
+        'r1bq1rk1/pp2ppbp/2np2p1/2n5/P3PP2/N1P2N2/1PB3PP/R1B1QRK1 b - - bm Nb3; id "BK.18";',
+        '3rr3/2pq2pk/p2p1pnp/8/2QBPP2/1P6/P5PP/4RRK1 b - - bm Rxe4; id "BK.19";',
+        'r4k2/pb2bp1r/1p1qp2p/3pNp2/3P1P2/2N3P1/PPP1Q2P/2KRR3 w - - bm g4; id "BK.20";',
+        '3rn2k/ppb2rpp/2ppqp2/5N2/2P1P3/1P5Q/PB3PPP/3RR1K1 w - - bm Nh6; id "BK.21";',
+        '2r2rk1/1bqnbpp1/1p1ppn1p/pP6/N1P1P3/P2B1N1P/1B2QPP1/R2R2K1 b - - bm Bxe4; id "BK.22";',
+        'r1bqk2r/pp2bppp/2p5/3pP3/P2Q1P2/2N1B3/1PP3PP/R4RK1 b kq - bm f6; id "BK.23";',
+        'r2qnrnk/p2b2b1/1p1p2pp/2pPpp2/1PP1P3/PRNBB3/3QNPPP/5RK1 w - - bm f4; id "BK.24";',
         ]
 
 BK_sols = ["Qd1+","d5","f5","e6","a4","g6","Nf6","f5","f5","Ne5","f4","Bf5","b4",
@@ -169,7 +169,6 @@ sbd_test = [
         'rnbqk2r/ppp2ppp/1b1p1n2/4p3/2B1P3/2PP1N2/PP1N1PPP/R1BQK2R b KQkq - bm O-O; id "sbd.131";',
         'rnbqk2r/pppp2pp/4pn2/5p2/1b1P4/2P2NP1/PP2PPBP/RNBQK2R b KQkq - bm Be7; id "sbd.132";',
         'rnbqr1k1/pp1p1ppp/5n2/3Pb3/1P6/P1N3P1/4NPBP/R1BQK2R w KQ - bm O-O; id "sbd.133";',
-        'nq1nrk1/pp3pbp/6p1/3p4/3P4/5N2/PP2BPPP/R1BQK2R w KQ - bm O-O; id "sbd.134";',
         ]
 
 sbd_sols = ['Qc7', 'Rc7', 'O-O', 'Rd8', 'g3', 'Bf7', 'O-O', 'Rce1', 'Kd2', 'Rd1', 'e6', 'Qf3', 'Na4 Nce4', 'Nd4', 'Bh6', 'Qd6',
@@ -180,7 +179,6 @@ sbd_sols = ['Qc7', 'Rc7', 'O-O', 'Rd8', 'g3', 'Bf7', 'O-O', 'Rce1', 'Kd2', 'Rd1'
         'O-O', 'O-O', 'O-O', 'O-O', 'O-O', 'O-O Qe7', 'O-O', 'Ne4', 'Ned5', 'O-O', 'Rd1', 'c5', 'Rac8', 'Nf3', 'O-O', 'O-O',
         'Ne2', 'O-O-O', 'O-O', 'Rd1', 'O-O-O', 'Re1', 'Rc1', 'e4', 'Qd4', 'Nc3', 'Ne6', 'b3', 'e5', 'O-O', 'Rad8', 'Kg5', 'O-O',
         'Re8+', 'Bc2', 'O-O', 'Qe7', 'd3', 'O-O', 'Rc1', 'O-O', 'O-O', 'O-O', 'Bd3', 'O-O', 'O-O', 'Nge2', 'O-O', 'Be7', 'O-O',
-        'O-O'
         ]
 
 
@@ -189,19 +187,20 @@ sbd_sols = ['Qc7', 'Rc7', 'O-O', 'Rd8', 'g3', 'Bf7', 'O-O', 'Rce1', 'Kd2', 'Rd1'
 
 ## Eigenmann Rapid Engine Test
 # Varied test-positions with unique solutions, 15 seconds per position to compare to other engines.
+# we dont use because its stupid...
 
 ERE_test = [
-        'r1bqk1r1/1p1p1n2/p1n2pN1/2p1b2Q/2P1Pp2/1PN5/PB4PP/R4RK1 w q - - bm Rxf4; id "ERET 001 - Relief";',
+        'r1bqk1r1/1p1p1n2/p1n2pN1/2p1b2Q/2P1Pp2/1PN5/PB4PP/R4RK1 w q - bm Rxf4; id "ERET 001 - Relief";',
         'r1n2N1k/2n2K1p/3pp3/5Pp1/b5R1/8/1PPP4/8 w - - bm Ng6; id "ERET 002 - Zugzwang";',
         'r1b1r1k1/1pqn1pbp/p2pp1p1/P7/1n1NPP1Q/2NBBR2/1PP3PP/R6K w - - bm f5; id "ERET 003 - Open Line";',
         '5b2/p2k1p2/P3pP1p/n2pP1p1/1p1P2P1/1P1KBN2/7P/8 w - - bm Nxg5; id "ERET 004 - Endgame";',
-        'r3kbnr/1b3ppp/pqn5/1pp1P3/3p4/1BN2N2/PP2QPPP/R1BR2K1 w kq - - bm Bxf7; id "ERET 005 - Bishop Sacrifice f7";',
+        'r3kbnr/1b3ppp/pqn5/1pp1P3/3p4/1BN2N2/PP2QPPP/R1BR2K1 w kq - bm Bxf7; id "ERET 005 - Bishop Sacrifice f7";',
         'r2r2k1/1p1n1pp1/4pnp1/8/PpBRqP2/1Q2B1P1/1P5P/R5K1 b - - bm Nc5; id "ERET 006 - Knight Sacrifice";',
         '2rq1rk1/pb1n1ppN/4p3/1pb5/3P1Pn1/P1N5/1PQ1B1PP/R1B2RK1 b - - bm Nde5; id "ERET 007 - Bishop Pair";',
         'r2qk2r/ppp1bppp/2n5/3p1b2/3P1Bn1/1QN1P3/PP3P1P/R3KBNR w KQkq - bm Qxd5; id "ERET 008 - Center";',
         'rnb1kb1r/p4p2/1qp1pn2/1p2N2p/2p1P1p1/2N3B1/PPQ1BPPP/3RK2R w Kkq - bm Ng6; id "ERET 009 - Knight Sacrifice";',
         '5rk1/pp1b4/4pqp1/2Ppb2p/1P2p3/4Q2P/P3BPP1/1R3R1K b - - bm d4; id "ERET 010 - Passed Pawn";',
-        'r1b2r1k/ppp2ppp/8/4p3/2BPQ3/P3P1K1/1B3PPP/n3q1NR w - - bm dxe5, Nf3; id "ERET 011 - Attacking Castle";',
+        'r1b2r1k/ppp2ppp/8/4p3/2BPQ3/P3P1K1/1B3PPP/n3q1NR w - - bm Nf3; id "ERET 011 - Attacking Castle";',
         '1nkr1b1r/5p2/1q2p2p/1ppbP1p1/2pP4/2N3B1/1P1QBPPP/R4RK1 w - - bm Nxd5; id "ERET 012 - Relief";',
         '1nrq1rk1/p4pp1/bp2pn1p/3p4/2PP1B2/P1PB2N1/4QPPP/1R2R1K1 w - - bm Qd2, Bc2; id "ERET 013 - Center";',
         '5k2/1rn2p2/3pb1p1/7p/p3PP2/PnNBK2P/3N2P1/1R6 w - - bm Nf3; id "ERET 014 - Endgame";',
@@ -214,11 +213,9 @@ ERE_test = [
         '3rr1k1/1pq2b1p/2pp2p1/4bp2/pPPN4/4P1PP/P1QR1PB1/1R4K1 b - - bm Rc8; id "ERET 021 - Prophylaxis";',
         'r4rk1/p2nbpp1/2p2np1/q7/Np1PPB2/8/PPQ1N1PP/1K1R3R w - - bm h4; id "ERET 022 - Passed Pawn";',
         'r3r2k/1bq1nppp/p2b4/1pn1p2P/2p1P1QN/2P1N1P1/PPBB1P1R/2KR4 w - - bm Ng6; id "ERET 023 - Attacking Castle";',
-        'r2q1r1k/3bppbp/pp1p4/2pPn1Bp/P1P1P2P/2N2P2/1P1Q2P1/R3KB1R w KQ - am b3; id "ERET 024 - Development";',
         '2kb4/p7/r1p3p1/p1P2pBp/R2P3P/2K3P1/5P2/8 w - - bm Bxd8; id "ERET 025 - Endgame";',
         'rqn2rk1/pp2b2p/2n2pp1/1N2p3/5P1N/1PP1B3/4Q1PP/R4RK1 w - - bm Nxg6; id "ERET 026 - Knight Sacrifice";',
         '8/3Pk1p1/1p2P1K1/1P1Bb3/7p/7P/6P1/8 w - - bm g4; id "ERET 027 - Zugzwang";',
-        '4rrk1/Rpp3pp/6q1/2PPn3/4p3/2N5/1P2QPPP/5RK1 w - - am Rxb7; id "ERET 028 - Poisoned Pawn";',
         '2q2rk1/2p2pb1/PpP1p1pp/2n5/5B1P/3Q2P1/4PPN1/2R3K1 w - - bm Rxc5; id "ERET 029 - Exchange Sacrifice";',
         'rnbq1r1k/4p1bP/p3p3/1pn5/8/2Np1N2/PPQ2PP1/R1B1KB1R w KQ - bm Nh4; id "ERET 030 - Initiative";',
         '4b1k1/1p3p2/4pPp1/p2pP1P1/P2P4/1P1B4/8/2K5 w - - bm b4; id "ERET 031 - Endgame";',
@@ -254,7 +251,6 @@ ERE_test = [
         '4rrk1/pp4pp/3p4/3P3b/2PpPp1q/1Q5P/PB4B1/R4RK1 b - - bm Rf6; id "ERET 061 - King Attack";',
         'rr1nb1k1/2q1b1pp/pn1p1p2/1p1PpNPP/4P3/1PP1BN2/2B2P2/R2QR1K1 w - - bm g6; id "ERET 062 - Stong Squares";',
         'r3k2r/4qn2/p1p1b2p/6pB/P1p5/2P5/5PPP/RQ2R1K1 b kq - bm Kf8; id "ERET 063 - Defence";',
-        '8/1pp5/p3k1pp/8/P1p2PPP/2P2K2/1P3R2/5r2 b - - am Rxf2; id "ERET 064 - Endgame";',
         '1r3rk1/2qbppbp/3p1np1/nP1P2B1/2p2P2/2N1P2P/1P1NB1P1/R2Q1RK1 b - - bm Qb6; id "ERET 065 - Zwischenzug";',
         '8/2pN1k2/p4p1p/Pn1R4/3b4/6Pp/1P3K1P/8 w - - bm Ke1; id "ERET 066 - Endgame";',
         '5r1k/1p4bp/3p1q2/1NpP1b2/1pP2p2/1Q5P/1P1KBP2/r2RN2R b - - bm f3; id "ERET 067 - Clearance";',
@@ -282,13 +278,11 @@ ERE_test = [
         '8/2P1P3/b1B2p2/1pPRp3/2k3P1/P4pK1/nP3p1p/N7 w - - bm e8N; id "ERET 089 - Underpromotion";',
         '4K1k1/8/1p5p/1Pp3b1/8/1P3P2/P1B2P2/8 w - - bm f4; id "ERET 090 - Endgame";',
         '8/6p1/3k4/3p1p1p/p2K1P1P/4P1P1/P7/8 b - - bm g6, Kc6; id "ERET 091 - Endgame";',
-        'r1b2rk1/ppp3p1/4p2p/4Qpq1/3P4/2PB4/PPK2PPP/R6R b - - am Qxg2; id "ERET 092 - Poisoned Pawn";',
         '2b1r3/r2ppN2/8/1p1p1k2/pP1P4/2P3R1/PP3PP1/2K5 w - - bm Nd6; id "ERET 093 - Endgame";',
         '2k2Br1/p6b/Pq1r4/1p2p1b1/1Ppp2p1/Q1P3N1/5RPP/R3N1K1 b - - bm Rf6; id "ERET 094 - Queen Sacrifice";',
         'r2qk2r/ppp1b1pp/2n1p3/3pP1n1/3P2b1/2PB1NN1/PP4PP/R1BQK2R w KQkq - bm Nxg5; id "ERET 095 - Queen Sacrifice";',
         '8/8/4p1Pk/1rp1K1p1/4P1P1/1nP2Q2/p2b1P2/8 w - - bm Kf6; id "ERET 096 - Endgame";',
         '2k5/p7/Pp1p1b2/1P1P1p2/2P2P1p/3K3P/5B2/8 w - - bm c5; id "ERET 097 - Endgame";',
-        '8/6pp/5k2/1p1r4/4R3/7P/5PP1/5K2 w - - am Ke2; id "ERET 098 - Endgame";',
         '3q1r1k/4RPp1/p6p/2pn4/2P5/1P6/P3Q2P/6K1 w - - bm Re8; id "ERET 099 - Endgame";',
         'rn2k2r/3pbppp/p3p3/8/Nq1Nn3/4B1P1/PP3P1P/R2Q1RK1 w k - bm Nf5; id "ERET 100 - Initiative";',
         'r1b1kb1N/pppnq1pB/8/3p4/3P4/8/PPPK1nPP/RNB1R3 b q - bm Ne5; id "ERET 101 - Development";',
@@ -304,15 +298,23 @@ ERE_test = [
         '8/8/8/8/4kp2/1R6/P2q1PPK/8 w - - bm a3; id "ERET 111 - Fortress";',
         ]
 
-ERE_sols = []
+ERE_sols = ['Rxf4', 'Ng6', 'f5', 'Nxg5', 'Bxf7', 'Nc5', 'Nde5', 'Qxd5', 'Ng6', 'd4', 'dxe5, Nf3', 'Nxd5', 'Qd2, Bc2',
+            'Nf3', 'Qd3', 'Nc6', 'Rxb2', 'Qg5', 'Nf5', 'Bxh7', 'Rc8', 'h4', 'Ng6', 'Bxd8', 'Nxg6', 'g4', 'Rxc5', 'Nh4',
+            'b4', 'Ng3', 'Nxe5', 'Rc8', 'Nxb5', 'b7', 'Na8', 'exd5', 'a3', 'Bc5', 'Nxg5', 'Kb7', 'Nxf5', 'h4', 'Rb4',
+            'Nd3', 'Nxb7', 'cxd5', 'f4', 'Nf3', 'Bh6', 'b4', 'c4', 'c3', 'Bxh6', 'Be2', 'd6', 'h4', 'Qd3', 'Qxd8',
+            'Rf6', 'g6', 'Kf8', 'Qb6', 'Ke1', 'f3', 'a3', 'h5', 'a3', 'f5', 'Qd5', 'Qxe2', 'Kc4', 'Qf5', 'Bxf6',
+            'gxf6', 'Rxf6', 'Qxe8', 'Bc1', 'Bg7', 'g4', 'Nb5', 'Bg7 Bg5', 'Ng4', 'c5', 'e5', 'g4', 'e8N', 'f4',
+            'g6, Kc6', 'Nd6', 'Rf6', 'Nxg5', 'Kf6', 'c5', 'Re8', 'Nf5', 'Ne5', 'Nxb4', 'Kc8', 'Ne7', 'e5', 'Bxf6',
+            'Rb5', 'Ba4', 'Qxd4', 'c5', 'a3']
 
-# import re as regex
-#
-# for move in ERE_test:
-#     solution =regex.findall('bm (.*);', move,regex.DOTALL|regex.MULTILINE)
-#     # Python program to convert a list
-#     # to string using list comprehension
-#     solution = listToStr = ' '.join([str(elem) for elem in solution])
-#     sep = ';'
-#     solution = solution.split(sep, 1)[0]
-#     ERE_sols.append(solution)
+if __name__ == "__main__":
+        import re as regex
+
+        for move in ERE_test:
+            solution =regex.findall('bm (.*);', move,regex.DOTALL|regex.MULTILINE)
+            # Python program to convert a list
+            # to string using list comprehension
+            solution = listToStr = ' '.join([str(elem) for elem in solution])
+            sep = ';'
+            solution = solution.split(sep, 1)[0]
+            ERE_sols.append(solution)

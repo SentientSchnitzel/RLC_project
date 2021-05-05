@@ -5,8 +5,32 @@ from evalFuncs import *
 # imports all test positions
 from test_positions import *
 
-all_tests = BK_test + sbd_test
-all_sols = BK_sols + sbd_sols
+import time
+import pandas as pd
+
+
+def test(position, solution, d):
+    _solved = 0
+    start = time.time()
+    for pos, sol in zip(position, solution):
+        movehistory = []
+        board = chess.Board()
+        board.set_epd(pos)
+        boardvalue = init_evaluate_board(board)
+
+        mov = selectmove(d, board)
+        movehistory.append(mov)
+
+        if str(board.san(mov)) in str(sol) or str(sol) in str(board.san(mov)):
+            _solved += 1
+
+    end = time.time()
+
+    accu = (_solved / len(position)) * 100
+    duration = end - start
+
+    return _solved, accu, duration
+
 
 depths = [1, 2, 3, 4, 5]
 numTests = len(BK_test+sbd_test)
