@@ -12,7 +12,9 @@ pip install -r requirements.txt
 ```
 
 ## Play vs the Engine
-Run file
+To play against the engine, run file/path below.
+Playing is done in algebraic notation, e.g. white knight to e4 is just writing ' Ne4 '. 
+Standard is playing as white, cannot be changed atm. mostly for demonstration
 ```bash
 
 python ChessEngine2.0\humanvsmachine.py
