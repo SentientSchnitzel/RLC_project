@@ -2,11 +2,11 @@
 Reinforcement Learning and Control DTU - Project 1
 
 ## Installation
-([↑up to contents](#contents))
-To install Asteroid, clone the repo and install it using
-conda, pip or python :
+Clone the repo and install dependencies
 ```bash
-# First clone and enter the repo
-git clone https://github.com/asteroid-team/asteroid
-cd asteroid
+git clone https://github.com/SentientSchnitzel/RLC_project
+
+cd RLC_project
+
+pip install -r requirements.txt
 ```
