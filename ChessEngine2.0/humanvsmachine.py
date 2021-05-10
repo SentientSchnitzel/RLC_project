@@ -3,11 +3,7 @@ from typing import List, Any, Union
 import chess
 import chess.svg
 
-from IPython.display import SVG
-
 board = chess.Board()
-SVG(chess.svg.board(board=board,size=400))
-
 
 def evaluate_board():
     if board.is_checkmate():
@@ -169,7 +165,7 @@ def selectmove(depth):
             board.push(move)
             boardValue = -alphabeta(-beta, -alpha, depth - 1)
             if boardValue > bestValue:
-                bestValue = boardValue;
+                bestValue = boardValue
                 bestMove = move
             if (boardValue > alpha):
                 alpha = boardValue
@@ -196,6 +192,7 @@ movehistory = []
 
 board = chess.Board()
 move_history = []
+play = True
 
 
 def playing(own_move):
@@ -203,16 +200,20 @@ def playing(own_move):
 
     board.push_san(own_move)
     computer_move = selectmove(3)
-    print(computer_move)
+    print("Computer move: ", computer_move)
     board.push(computer_move)
-
-    print(board)
-
 
     move_history.append(own_move)
     move_history.append(computer_move)
 
 
-playing("e4")
+while play:
+    try:
+        print(board)
+        print("Please choose a move")
+        p1_move = input()
+        playing(p1_move)
+    except:
+        print("Not a move, sry")
 
 print(move_history)
