@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ff8c1c6-3802-401d-a002-bf8b6f63976e" name="Default Changelist" comment="Removed unnecessary files">
-      <change beforePath="$PROJECT_DIR$/ChessEngine2.0/humanvsmachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChessEngine2.0/humanvsmachine.py" afterDir="false" />
-    </list>
+    <list default="true" id="3ff8c1c6-3802-401d-a002-bf8b6f63976e" name="Default Changelist" comment="moved requirements.txt" />
     <list id="4e398409-ac8b-4063-8997-3c8dc672d7ef" name="Changes by Simon" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1rQpavFBDMgF8Iq8fjJLd0D8FwQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -227,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620638588768</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="moved requirements.txt">
+      <created>1620648278779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620648278779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +256,8 @@
     <MESSAGE value="commit numero dos" />
     <MESSAGE value="last update, added requirements.txt" />
     <MESSAGE value="Removed unnecessary files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary files" />
+    <MESSAGE value="moved requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved requirements.txt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RLC_project$AI.coverage" NAME="AI Coverage Results" MODIFIED="1619421466485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessAI-main" />
