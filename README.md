@@ -10,3 +10,11 @@ cd RLC_project
 
 pip install -r requirements.txt
 ```
+
+## Play vs the Engine
+Run file
+```bash
+
+python ChessEngine2.0\humanvsmachine.py
+
+```
