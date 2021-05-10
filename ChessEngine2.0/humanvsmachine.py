@@ -177,7 +177,7 @@ def selectmove(depth):
         movehistory.append(bestMove)
         return bestMove
 
-# movehistory = []
+movehistory = []
 # board = chess.Board()
 # mov = selectmove(3)
 # board.push(mov)
@@ -214,6 +214,5 @@ def playing(own_move):
 
 
 playing("e4")
-
 
 print(move_history)

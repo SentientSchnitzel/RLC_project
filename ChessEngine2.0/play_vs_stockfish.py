@@ -34,5 +34,3 @@ game.add_line(movehistory)
 game.headers["Result"] = str(board.result(claim_draw=True))
 print(game)
 print(game, file=open("test_d3.pgn", "w"), end="\n\n")
-
-# SVG(chess.svg.board(board=board, size=400))

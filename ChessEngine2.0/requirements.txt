@@ -1,0 +1,4 @@
+pandas==1.2.4
+python_chess==0.23.10
+chess==1.5.0
+ipython==7.23.1

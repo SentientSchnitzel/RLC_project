@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff8c1c6-3802-401d-a002-bf8b6f63976e" name="Default Changelist" comment="commit numero dos">
-      <change afterPath="$PROJECT_DIR$/ChessEngine2.0/humanvsmachine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChessEngine2.0/Chess1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ChessEngine2.0/Chess1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChessEngine2.0/evaluate_chess_positions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChessEngine2.0/evaluate_chess_positions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChessEngine2.0/humanvsmachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChessEngine2.0/humanvsmachine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ChessEngine2.0/play_vs_stockfish.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChessEngine2.0/play_vs_stockfish.py" afterDir="false" />
     </list>
-    <list id="4e398409-ac8b-4063-8997-3c8dc672d7ef" name="Changes by Simon" comment="">
-      <change beforePath="$PROJECT_DIR$/ChessEngine2.0/evaluate_chess_positions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChessEngine2.0/evaluate_chess_positions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChessEngine2.0/test_positions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChessEngine2.0/test_positions.py" afterDir="false" />
-    </list>
+    <list id="4e398409-ac8b-4063-8997-3c8dc672d7ef" name="Changes by Simon" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,22 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/ChessEngine2.0/evaluate_chess_positions.py">
-      <ranges>
-        <range start1="7" end1="9" start2="7" end2="33" changelist="4e398409-ac8b-4063-8997-3c8dc672d7ef" />
-        <range start1="10" end1="10" start2="34" end2="46" changelist="3ff8c1c6-3802-401d-a002-bf8b6f63976e" />
-        <range start1="11" end1="18" start2="47" end2="51" changelist="3ff8c1c6-3802-401d-a002-bf8b6f63976e" />
-        <range start1="19" end1="21" start2="52" end2="56" changelist="3ff8c1c6-3802-401d-a002-bf8b6f63976e" />
-        <range start1="22" end1="23" start2="57" end2="58" changelist="3ff8c1c6-3802-401d-a002-bf8b6f63976e" />
-        <range start1="24" end1="29" start2="59" end2="59" changelist="3ff8c1c6-3802-401d-a002-bf8b6f63976e" />
-        <range start1="30" end1="31" start2="60" end2="62" changelist="3ff8c1c6-3802-401d-a002-bf8b6f63976e" />
-        <range start1="32" end1="32" start2="63" end2="66" changelist="3ff8c1c6-3802-401d-a002-bf8b6f63976e" />
-        <range start1="33" end1="33" start2="67" end2="71" changelist="3ff8c1c6-3802-401d-a002-bf8b6f63976e" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="1rQpavFBDMgF8Iq8fjJLd0D8FwQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -173,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.evaluate_chess_positions" />
-        <item itemvalue="Python.humanvsmachine" />
         <item itemvalue="Python.play_vs_stockfish" />
+        <item itemvalue="Python.humanvsmachine" />
+        <item itemvalue="Python.evaluate_chess_positions" />
         <item itemvalue="Python.chess" />
         <item itemvalue="Python.AI" />
       </list>
@@ -246,22 +231,14 @@
     <MESSAGE value="commit numero dos" />
     <option name="LAST_COMMIT_MESSAGE" value="commit numero dos" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/ChessEngine2.0/humanvsmachine.py</url>
-          <line>218</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RLC_project$humanvsmachine.coverage" NAME="humanvsmachine Coverage Results" MODIFIED="1620203293334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessEngine2.0" />
-    <SUITE FILE_PATH="coverage/RLC_project$play_vs_stockfish.coverage" NAME="play_vs_stockfish Coverage Results" MODIFIED="1620053213318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessEngine2.0" />
-    <SUITE FILE_PATH="coverage/RLC_project$chess.coverage" NAME="chess Coverage Results" MODIFIED="1619439814474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessAI-main" />
     <SUITE FILE_PATH="coverage/RLC_project$AI.coverage" NAME="AI Coverage Results" MODIFIED="1619421466485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessAI-main" />
+    <SUITE FILE_PATH="coverage/RLC_project$humanvsmachine.coverage" NAME="humanvsmachine Coverage Results" MODIFIED="1620203293334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessEngine2.0" />
+    <SUITE FILE_PATH="coverage/RLC_project$play_vs_stockfish.coverage" NAME="play_vs_stockfish Coverage Results" MODIFIED="1620132574252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessEngine2.0" />
+    <SUITE FILE_PATH="coverage/RLC_project$evaluate_chess_positions__1_.coverage" NAME="evaluate_chess_positions (1) Coverage Results" MODIFIED="1620222986670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessEngine2.0" />
+    <SUITE FILE_PATH="coverage/RLC_project$chess.coverage" NAME="chess_class Coverage Results" MODIFIED="1619775441563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessAI-main" />
+    <SUITE FILE_PATH="coverage/RLC_project$test_positions.coverage" NAME="test_positions Coverage Results" MODIFIED="1620048422320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessEngine2.0" />
     <SUITE FILE_PATH="coverage/RLC_project$evaluate_chess_positions.coverage" NAME="evaluate_chess_positions Coverage Results" MODIFIED="1620203616130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessEngine2.0" />
+    <SUITE FILE_PATH="coverage/RLC_project$random_chess.coverage" NAME="random_chess Coverage Results" MODIFIED="1620025784202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChessEngine2.0" />
   </component>
 </project>
