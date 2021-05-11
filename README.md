@@ -1,6 +1,8 @@
 # RLC_project
 Reinforcement Learning and Control DTU - Project 1
 
+Main script is the 
+
 ## Installation
 Clone the repo and install dependencies
 ```bash
