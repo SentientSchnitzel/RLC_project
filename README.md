@@ -1,7 +1,7 @@
 # RLC_project
 Reinforcement Learning and Control DTU - Project 1
 
-Main script is the 'evaluate_chess_positions' which gives data for the table.
+Main script is the [evaluate_chess_positions.py](../blob/master/ChessEngine2.0/evaluate_chess_positions.py) which gives data for the table.
 
 ## Installation
 Clone the repo and install dependencies
