@@ -1,7 +1,7 @@
 # RLC_project
 Reinforcement Learning and Control DTU - Project 1
 
-Main script is the 
+Main script is the 'evaluate_chess_positions' which gives data for the table.
 
 ## Installation
 Clone the repo and install dependencies
@@ -22,3 +22,6 @@ Standard is playing as white, cannot be changed atm. mostly for demonstration
 python ChessEngine2.0\humanvsmachine.py
 
 ```
+
+### Acknowledgements
+Code is based on [Andreas Stöckl's](https://medium.datadriveninvestor.com/an-incremental-evaluation-function-and-a-testsuite-for-computer-chess-6fde22aac137) article about chess, minimax, alphabeta pruning and quiesensce search.
